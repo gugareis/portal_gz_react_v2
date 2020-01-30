@@ -1,0 +1,1 @@
+export const isAuthenticated = () => sessionStorage.getItem('_user') !== false;
